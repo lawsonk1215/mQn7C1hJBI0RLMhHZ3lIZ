@@ -1,0 +1,42 @@
+
+
+nav.navbar.navbar-inverse.navbar-fixed-top.scroll-fixed-navbar,
+nav.navbar.navbar-inverse.navbar-fixed-top div.container div.navigation.navbar-collapse.collapse.in {
+	background-image: url(../img/wood-black.png);
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    div.navigation.navbar-collapse.collapse.in, 	
+    nav.navbar.navbar-inverse.navbar-fixed-top { 
+    	background-image: url(../img/wood-black.png);
+    }
+}
+
+
+.nav {
+	padding-top: 20px;
+	font-size: 1.5em;
+	color: white;
+}
+
+@media (max-width: 767px) {
+
+	.logo-header {
+		padding-left: 40px;
+		height: 70px;
+		margin-top: 20px!important;
+		margin-bottom: 20px!important;
+	}
+
+	 div.row div.col-lg-6.col-md-6 div.features {
+	 	margin-left: 40px!important;
+	 }
+
+}
+
+.logo-header { 
+	/*float: left; */
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0px;
+}
